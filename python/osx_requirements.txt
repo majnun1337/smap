@@ -1,4 +1,4 @@
-Twisted==13.2.0
+Twisted==22.10.0rc1
 zope.interface==4.1.0
 avro==1.7.6
 configobj==5.0.2
@@ -6,3 +6,4 @@ pyOpenSSL==0.14
 pybonjour==1.1.1
 python-dateutil==2.2
 BeautifulSoup==3.2.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
